@@ -12,8 +12,11 @@ import utils.WebDriverManager;
 import java.time.Duration;
 
 public class HomeTest extends ReportGeneration {
+
+
     private static WebDriver driver;
     private static HomePage homePage;
+
 
     @Given("I add the ExtentReport")
     public void addTheExtentReport() {
